@@ -1,0 +1,556 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	left: 0;
+  	margin: 0;
+  	overflow-x: hidden;
+  	position: relative;
+}
+
+
+
+.postimage{
+	max-width: 80px;
+}
+
+
+.page-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-menu li {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 3px;
+  padding-left: 2.4em;
+  padding-top: 3px;
+}
+
+.page-menu a {
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-content{
+	display: inline-block;
+	background: #ffffff;
+	width: 100%;
+	text-align: center;
+	font-family: Impact, sans-serif;
+	min-height: 300px;
+}
+
+
+.page-menu img{
+	padding-bottom:0px;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.page-menu .icon-logout {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 25px;
+  color: white;
+  float:right;
+  font-weight:bold;
+  font-family: Tahoma;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-right:30px;
+
+}
+
+p{
+margin-bottom: 0px;
+
+}
+
+h1{
+	background-color: #ff69b4;
+	font-family: sans-serif;
+	margin: 0px;
+	text-align: center;
+}
+
+.page-menu .icon-login {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 25px;
+  color: white;
+  float:right;
+  font-weight:bold;
+  font-family: Tahoma;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-right:30px;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.icon-login:hover{
+	text-decoration: underline;
+}
+
+p, a {
+  font-family: Impact, sans-serif;
+  font-size: 18px;
+  color: #8E35EF;
+}
+
+.loginBox{
+	left: -285px;  
+  	height: 100%;
+  	position: fixed;
+  	width: 285px;
+  	background-color: white;
+ }
+
+ header{
+ 	left:0px;
+ 	width:100%;
+ } 
+
+.page-menu li {
+	display: inline-block;
+}
+
+.banner img{
+	padding-top: 72px;
+	width:100%;
+	max-height:200px;
+}
+
+.mainheader{
+	left:0px;
+	width:100%;
+}
+
+.main-menu ul {
+}
+
+.mainheader .main-menu li {
+	display: inline-block;
+}
+
+.mainheader .main-menu a {
+}
+
+.mainheader .icon-close{
+	display:none;
+}
+
+.fadeOutDiv{
+	background: url('../assets/havenlogo.jpg') no-repeat fixed;
+	height:100%;
+	display:none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+}
+
+.fadeInDiv{
+	display:none;
+}
+
+.footerTitle{
+	border-bottom: 1px solid #ffffff;
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding:10px;
+	text-transform: uppercase;
+}
+
+.footerGroups{
+	width: 400px;
+	display:inline-block;
+}
+
+.footerlink{
+	color:white;
+	display: block;
+	font-size:14px;
+	line-height: 1.8;
+	padding-left: 14px;
+}
+
+.statement{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+
+.page-content:nth-child(even){
+	background-color: #fafafa;
+	padding: 5px;
+}
+
+.page-content:nth-child(odd){
+	background-color: #ffffff;
+	padding: 5px;
+}
+.eventPosts{
+	border: 2px solid #ff69b4;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    color: purple;
+    font-size: 20px;
+}
+
+.page-menu a{
+	color: white;
+	/*background-color: #ffffff;
+	text-decoration:none;*/
+	font-family: Tahoma;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: .5em;
+}
+
+.topmain{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.userDiv{
+	border: 2px solid #ff69b4;
+    padding: 10px 10px; 
+    border-radius: 10px;
+    color: purple;
+}
+}
+
+.topmain img{
+	width:100%;
+}
+
+#topbanner {
+	background: #b31b1b;
+	/*border: ridge #bfb778 .15em;*/
+	/*padding: .1em;*/
+	/*position: absolute;*/
+	font-family:"Apple-Chancery";
+	color: #FFFFFF;
+	display: inline-block;
+	left: 13.5%;
+	top: -2%;
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+}
+
+#midbanner {
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', 
+	Garamond, 'Times New Roman', serif;
+	display: block;
+	font-variant: small-caps;
+	text-align: center;
+	background: #bfb778;
+	font-size: 3.5em;
+	letter-spacing: .15em;
+	color: #1b3a98;
+    border: solid #b31b1b;
+    border-width: .25em 6em;
+    margin: 0px;
+}
+
+.img {
+	max-width: 100%;
+	height: 20em;
+	position: relative;
+}
+
+.login {
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', 
+	Garamond, 'Times New Roman', serif;
+	display: block;
+	font-variant: small-caps;
+	text-align: center;
+	background: #bfb778;
+	font-size: 3.5em;
+	letter-spacing: .15em;
+	color: #1b3a98;
+    width: 18%;
+    padding: .25em 6em;
+    border: solid #b31b1b;
+    border-width: .25em 6em;
+    margin: 1% 5%;
+}
+
+h3.postTitle{
+	margin: 0px;
+}
+
+.hidden{
+    display:none;
+}
+#overlay {
+	display: none;
+	background-color: rgba(61,61,61 0.7);
+}
+#overlay img{
+    max-height: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.active{
+	display: block !important;		
+	color: white;	
+	background-image: url("../assets/Pure.png") !important;
+	width:100% !important;  
+	margin-top:0px !important;
+	margin-bottom: 0px !important;
+	text-align: center !important;
+	z-index: -1;
+}
+
+.postBody{
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.postTitle{
+	font-size: 22px;
+	padding-top: 0px;
+}
+
+.loginBar{
+	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #d966ff;
+
+}
+#loginBar a{
+	
+}
+
+/*.pictureEvents{
+	width: 50%
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/LGBTRCTabling.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pictureAboutUs{
+	width:50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/OldTeam.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pictureGroups{
+	width:50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/FilthyAdults.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
+.page-content div{
+	display: inline-block;
+	width: 50%;
+}
+
+.page-content .description{
+	padding-top: 50px;
+	width:49%;
+}
+
+.page-content .picture{
+	width:49%;
+}
+
+.page-content .picture img{
+	width:100%;
+}
+
+.page-content .pictureContact{
+	float:right;
+	width: 300px;
+	padding-left: 30px;
+}
+
+.page-content .pictureContact img{
+	width:100%;
+}
+
+
+.page-content .description:nth-child(even){
+	float:right;
+}
+.page-content .description:nth-child(odd){
+	float:left;
+}
+
+
+input{
+	background: #f2ccff;
+	border:1px #9900cc solid;
+	padding:5px;
+	border-radius:  0.4em .4em .4em 0.4em;
+	max-width: 200px;
+}
+
+input[type="submit"]{
+	cursor:pointer;
+}
+
+.copyright{
+	background-color: #a6192e;
+	color: white;
+	height:200px;
+}
+
+.facebook{
+	float: right;
+	padding: 10px;
+}
+
+.facebook img{
+	width:30px;
+	height:30px;
+}
+
+.footerlink img{
+	width:30px;
+	height:30px;
+}
+
+.page-menu{
+	z-index: 999;
+	position:fixed;
+	width:100%;
+	padding-top: 20px;
+  	background: rgb(255,0,0,0.6); /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(rgba(255,0,0,0.6), rgba(255,191,0,0.6), rgba(255,255,0,0.6),
+  		rgba(0,255,0,0.6),rgba(0,0,255,0.6),rgba(128,0,255,0.6), rgba(191,0,255,0.6)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(rgba(255,0,0,0.6), rgba(255,191,0,0.6), rgba(255,255,0,0.6),
+  		rgba(0,255,0,0.6),rgba(0,0,255,0.6),rgba(128,0,255,0.6), rgba(191,0,255,0.6)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(rgba(255,0,0,0.6), rgba(255,191,0,0.6), rgba(255,255,0,0.6),
+  		rgba(0,255,0,0.6),rgba(0,0,255,0.6),rgba(128,0,255,0.6), rgba(191,0,255,0.6)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(rgba(255,0,0,0.6), rgba(255,191,0,0.6), rgba(255,255,0,0.6),
+  		rgba(0,255,0,0.6),rgba(0,0,255,0.6),rgba(128,0,255,0.6), rgba(191,0,255,0.6)); /* Standard syntax */
+  /*-webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;*/
+}
+
+
+
+.main-menu img{
+	max-height: 80px;
+	width:auto;
+}
+
+.main-menu .shrink {
+  min-height: 35px;
+}
+
+
+/*Post Slider CSS. Reference from https://codepen.io/zuraizm/pen/vGDHl/*/
+.slider{
+	position: relative;
+	margin: 0px;
+	border-radius:4px;
+	z-index: 10;
+}
+
+.slider ul{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height:200px;
+	list-style: none;
+	z-index: 11;
+}
+
+.slider ul li{
+	position: relative;
+	display: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	line-height: 50px;
+	z-index: 12;
+	min-height: 300px;
+}
+
+a.control_prev, a.control_next{
+	position: absolute;
+	top: 50%;
+	display: block;
+	padding: 2% 3%;
+	width: auto;
+	height: auto;
+	background:  #ff69b4;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 13;
+}
+
+a.control_prev:hover, a.control_next:hover{
+	opacity: 1;
+	-webkit-transition: all 0.2s ease;
+}
+
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.groupDiv img{
+	width: 100px;
+}
+
